@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "../train.py", line 312, in <module>
+    cfg_from_file(args.cfg_file)
+  File "/opt/work/1-stage-wseg/core/config.py", line 123, in merge_cfg_from_file
+    with open(cfg_filename, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'configs/voc_resnet50.yaml'
